@@ -1,0 +1,13 @@
+.mydiv {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+
+  animation-name: abdullah;
+  animation-duration: s;
+  animation-iteration-count: 4;
+  animation-delay: 3s;
+}
+
+@
+}
