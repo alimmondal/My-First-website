@@ -1,13 +1,111 @@
-.mydiv {
-  width: 150px;
-  height: 150px;
-  background-color: red;
-
-  animation-name: abdullah;
-  animation-duration: s;
-  animation-iteration-count: 4;
-  animation-delay: 3s;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eee8ae;
+}
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+#hader {
+  background-color: #fab72a;
+  padding: 15px;
+  border-bottom: 5px solid #6b710e;
+}
+#hadderh2 {
+  color: #ffff;
+  font-family: georgia;
+}
+#hadder p {
+  color: #788420;
+}
+#nav {
+  background-color: #fff;
+  height: 38px;
+  border-bottom: 5px solid #6b710e;
+}
+#nav ul {
+  background-color: #fff;
+  list-style-type: none;
+  z-index: 999;
+}
+#nav ul li a {
+  float: left;
+  border-right: 1px solid #6b710e;
+}
+#nav ul li:last_child {
+  border: none;
+}
+#nav ul li a {
+  text-decoration: none;
+  color: #7a7f25;
+  display: block;
+  padding: 10px 20px;
+}
+#nav ul li a:hover {
+  color: #827159;
+}
+#nav ul li {
+  position: relative;
+}
+#nav ul li ul {
+  position: absolute;
+  left: -9999px;
+  background: #fff;
+}
+#nav ul li:hover ul {
+  left: 0;
+}
+#ul li ul:first-children {
+  border-top: 1px solid #6b710e;
+}
+#nav ul li ul {
+  float: none;
+  border-right: 1px solid #6b710e;
+  border-bottom: 1px solid #6b710e;
+  width: 200px;
+}
+#slider img {
+  width: 960px;
+}
+#conntent_wrapper {
+  background-color: #fff;
+  border-top: 5px solid #6b710e;
+  padding: 10px;
+  overflow: hidden;
+}
+#content {
+  width: 620px;
+  margin-right: 20px;
+  float: left;
+}
+#content h2 {
+  color: #6b710e;
+  font-family: Arial;
+  margin-bottom: 5px;
 }
 
-@
+#sidebar {
+  width: 300px;
+  float: left;
+}
+#sidebar ul {
+  list-style-type: circle;
+}
+#sidear ul li a {
+  text-decoration: none;
+  color: #6b710e;
+  padding: 3px;
+  display: block;
+}
+#sidebar h2 {
+  color: #6b710e;
+}
+#footer {
+  background-color: #00a34f;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
 }
